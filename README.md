@@ -86,6 +86,7 @@ cd models/bvlc_googlenet
 wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
 cd ..
 cd ..
+cd ..
 
 git clone https://github.com/ndxbxrme/ndx-deepdream.git
 cd ndx-deepdream/
