@@ -82,6 +82,9 @@ source ~/.bashrc
 sudo easy_install pillow
 make runtest
 export PYTHONPATH=/home/jeff/dev/caffe/python
+cd models/bvlc_googlenet
+wget http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+cd ..
 cd ..
 
 git clone https://github.com/ndxbxrme/ndx-deepdream.git
