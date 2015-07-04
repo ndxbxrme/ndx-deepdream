@@ -65,7 +65,7 @@ git clone https://github.com/BVLC/caffe.git
 cd caffe/
 cp Makefile.config.example Makefile.config
 ```
-if you don't have an Nvidia GPU edit Makefile to uncomment the line `CPU_ONLY := 1`
+if you don't have an Nvidia GPU edit Makefile.config to uncomment the line `CPU_ONLY := 1`
 ```bash
 echo "CXX := /usr/bin/g++-4.6" >> Makefile.config
 sed -i 's/CXX :=/CXX ?=/' Makefile.config
