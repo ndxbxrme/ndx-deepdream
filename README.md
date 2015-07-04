@@ -18,6 +18,7 @@ pip install scipy
 sudo apt-get install python-scipy
 sudo apt-get install -y libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libboost-all-dev libhdf5-serial-dev protobuf-compiler gcc-4.6 g++-4.6 gcc-4.6-multilib g++-4.6-multilib gfortran libjpeg62 libfreeimage-dev libatlas-base-dev git python-dev python-pip
 sudo apt-get install cmake
+sudo apt-get install liblmdb-dev
 sudo apt-get install linux-headers-`uname -r`
 sudo easy_install numpy
 
