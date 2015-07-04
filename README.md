@@ -71,11 +71,8 @@ echo "CXX := /usr/bin/g++-4.6" >> Makefile.config
 sed -i 's/CXX :=/CXX ?=/' Makefile.config
 make all
 make test
-examples/imagenet/get_caffe_reference_imagenet_model.sh
-mv caffe_reference_imagenet_model examples/imagenet
 data/ilsvrc12/get_ilsvrc_aux.sh
 sudo pip install -r python/requirements.txt
-sudo ln -s /usr/include/python2.7/ /usr/local/include/python2.7
 sudo ln -s /usr/include/python2.7/ /usr/local/include/python2.7
 sudo ln -s /usr/local/lib/python2.7/dist-packages/numpy-1.8.1-py2.7-linux-x86_64.egg/numpy/core/include/numpy /usr/local/include/python2.7/numpy
 make pycaffe
